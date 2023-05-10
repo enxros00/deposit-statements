@@ -1,0 +1,162 @@
+body {
+    height: 100%;
+    background-color: var(--black-10percen) !important;
+}
+
+/* --light-periwinkle */
+:root {
+    --primary: #0050f0;
+    --primary-hover: #b0c9ff;
+    --pumpkin-orange: #f68b1f;
+    --marine-blue: #002d63;
+    --white: #ffffff;
+    --white-hover: #f3f3f3;
+    --warm-gray: #9b9797;
+    --pinkish-gray: #d4cccc;
+    --gray-white: #e0e0e0;
+    --gray: #aaacab;
+    --disabled: #b6b4b487;
+    --blur-blue: #255ed6;
+    --carolina-blue: #7faaff;
+    --e-8-eefd-bg: #e8eefd;
+    --carolina-blue-light: #ecf5fc;
+    --light-periwinkle: #e3eafd;
+    --red: #ff0000;
+    --green: #10a81a;
+    --secondary: #65b2e8;
+    --secondary-70percen: #65b2e8b3;
+    --secondary-40percen: #65b2e866;
+    --secondary-10percen: #65b2e81a;
+    --orange-peach: #f15a22;
+    --pumpkin-orange: #f68b1f;
+    --orange-peach-70percen: #f15a22b3;
+    --orange-peach-40percen: #f15a2266;
+    --orange-peach-10percen: #f15a221a;
+    --black: #000000;
+    --black-70percen: #000000b3;
+    --black-40percen: #00000066;
+    --black-10percen: #0000001a;
+    --peach: #ff917e;
+    --peach-70percen: #ff917eb3;
+    --peach-40percen: #ff917e66;
+    --peach-10percen: #ff917e1a;
+    --lemon: #fec800;
+    --lemon-70percen: #fec800b3;
+    --lemon-40percen: #fec80066;
+    --lemon-10percen: #fec8001a;
+    --algae-green: #1eb950;
+    --algae-green-70percen: #1eb950b3;
+    --algae-green-40percen: #1eb95066;
+    --algae-green-10percen: #1eb9501a;
+}
+
+.PrimaryBtn {
+    border-radius: 12px !important;
+    background-color: var(--primary) !important;
+    color: var(--white) !important;
+    min-height: 50px !important;
+    font-size: 1rem !important;
+    border: 0.5px solid var(--primary) !important;
+}
+.PrimaryBtn:hover {
+    background-color: var(--blur-blue) !important;
+}
+.PrimaryBtn:disabled {
+    background-color: var(--pinkish-gray) !important;
+    border: none !important;
+    color: var(--warm-gray) !important;
+}
+.SecondaryBtn {
+    border-radius: 12px !important;
+    background-color: var(--white) !important;
+    color: var(--carolina-blue) !important;
+    min-height: 50px !important;
+    font-size: 16px !important;
+    border: 0.5px solid var(--primary) !important;
+}
+  
+.SecondaryBtn:hover {
+    background-color: var(--white-hover) !important;
+}
+
+.color_font_blue .MuiButton-label {
+    color: var(--primary);
+}
+
+.header_statement {
+    font-size: 1.2rem;
+    font-weight: bold
+}
+ 
+.header_statement_1 {
+    color: var(--gray) ;
+    font-weight: bold
+}
+
+.header_customer_info {
+    font-weight: bold
+}
+
+.paper_page {
+    background-color: var(--carolina-blue-light);
+    border-radius: 15px;
+    margin: 0 15px ;
+}
+.grid-input-templat.css-un48xx-MuiGrid-root {
+    margin-top: 0px;
+    /* margin-left: 0px; */
+}
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+    position: relative !important;
+}
+  
+.grid-templat.css-un48xx-MuiGrid-root {
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.table-templat.css-1ndpvdd-MuiTableCell-root {
+    border: 1px solid rgba(224, 224, 224, 1);
+}
+
+.table-templat.css-1yhpg23-MuiTableCell-root {
+    border: 1px solid rgba(224, 224, 224, 1);
+}
+
+.table-templat.css-177gid-MuiTableCell-root {
+    border: 1px solid rgba(224, 224, 224, 1);
+}
+
+.table_header {
+    /* font-size: 1.2rem; */
+    font-weight: bold
+}
+
+.css-iyrai0-MuiMonthCalendar-root {
+    background-color: var(--black-10percen);
+}
+
+.css-1lkpf4l-MuiYearCalendar-root {
+    background-color: var(--black-10percen);
+}
+
+.css-bw88rr-MuiPickersMonth-monthButton.Mui-disabled {
+    color: rgb(0 0 0 / 5%);
+}
+
+.css-1nrlq1o-MuiFormControl-root {
+    width: 100%; 
+}
+
+.container_section {
+    padding: 0px 24px 24px 24px;
+    background-color: var(--light-periwinkle);
+    min-height: calc(100vh - 64px);
+    /* height: calc(100vh - 64px); */
+}
+.container_section2 {
+    padding: 0px 24px;
+    background-color: var(--light-periwinkle);
+    height: 100%;
+    /* height: calc(100% - 64px); */
+}

@@ -1,0 +1,18 @@
+{
+    "status": {
+        "code": "0000",
+        "description": "Success"
+    },
+    "account": {
+        "id": "00000463027904",
+        "mailing_address": {
+            "receiver_name": "นายสามเจต ถูมี",
+            "address1": "355/18",
+            "address2": "ซ.ลาดพร้าว 122 ถ.ลาดพร้าว",
+            "address3": "แขวงจอมพล เขตจุตุจักร",
+            "city": "กรุงเทพมหานคร",
+            "postal_code": "10900",
+            "country": "TH"
+        }
+    }
+}

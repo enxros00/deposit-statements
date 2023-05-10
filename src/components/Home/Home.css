@@ -1,0 +1,78 @@
+.DayPicker {
+    background-color: white;
+  }
+  
+  .DayPicker-Day--selected:not(.DayPicker-Day--outside) {
+    color: blue;
+  }
+.calendar {
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .calendar-header {
+    margin: 0;
+    padding: 10px;
+    background-color: #3f51b5;
+    color: white;
+    text-align: center;
+  }
+  
+  .calendar-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .calendar-month {
+    margin: 0;
+    padding: 0 10px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .calendar-weekdays {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .calendar-weekday {
+    flex: 1;
+    margin: 0;
+    padding: 10px 0;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    color: #9e9e9e;
+  }
+  
+  .calendar-body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .calendar-day {
+    flex: 1;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    color: #9e9e9e;
+  }
+  
+  .calendar-day-selected {
+    background-color: #3f51b5;
+    color: white;
+  }
+  
+  .calendar-day-today {
+    font-weight: 500;
+  }
+  
+  .calendar-day-disabled {
+    color: #ddd;
+  }
+  

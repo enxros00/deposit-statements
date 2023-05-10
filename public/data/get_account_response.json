@@ -1,0 +1,23 @@
+{
+    "status": {
+        "code": "0000",
+        "description": "Success"
+    },
+    "account": {
+        "id": "0000273327098",
+        "title": "นาย ทีเอ็มบี ธนชาต",
+        "short_name": "",
+        "type": "CDA",
+        "product_code": "ST302",
+        "branch_id": "027",
+        "branch_name": "TALAD NOI",
+        "currency": "THB",
+        "interest_rate": "1.50000",
+        "current_interest_rate": "1.30000",
+        "opening_method": "4",
+        "status": {
+            "account_status": "Closed",
+            "last_deposit_date": "2014-06-16"
+        }
+    }
+}
